@@ -16,7 +16,7 @@ On the remote host:
 
 The user on the remote host must be in the group `fuse`:
 
-~~~
+~~~shell
 addgroup "$USER" fuse  # and reconnect the session
 ~~~
 
