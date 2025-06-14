@@ -1,7 +1,7 @@
 `rsshfs` (reverse `sshfs`) allows to mount a local folder to a remote host
 using `sshfs`.
 
-See <http://blog.rom1v.com/2014/06/sshfs-inverse-rsshfs/>.
+See <https://blog.rom1v.com/2014/06/sshfs-inverse-rsshfs/>.
 
 ## Dependencies
 
@@ -16,7 +16,7 @@ On the remote host:
 
 The user on the remote host must be in the group `fuse`:
 
-~~~
+~~~shell
 addgroup "$USER" fuse  # and reconnect the session
 ~~~
 
